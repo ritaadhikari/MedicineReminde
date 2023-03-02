@@ -23,29 +23,6 @@ public class SplashActivity extends AppCompatActivity {
                 Intent intent = new Intent(SplashActivity.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
-
-
-//                functions not worked properly
-
-//                SharedPreferences sharedPreferences = getSharedPreferences(LoginActivity.PREFS_NAME,0);
-//                boolean hasLoggedIn = sharedPreferences.getBoolean("hasLoggedIn",false);
-//
-////                if (hasLoggedIn){
-//                    intent = new Intent(SplashActivity.this,MedicineApp.class);
-//                    startActivity(intent);
-//                    finish();
-//                }
-//                if (hasLoggedIn){
-//                 intent = new Intent(SplashActivity.this,LoginActivity.class);
-//                    startActivity(intent);
-//                    finish();
-//
-//                }
-//                else{
-//
-//                }
-
-
             }
         }, 4000);
 
