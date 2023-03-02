@@ -24,6 +24,9 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
 
+
+//                functions not worked properly
+
 //                SharedPreferences sharedPreferences = getSharedPreferences(LoginActivity.PREFS_NAME,0);
 //                boolean hasLoggedIn = sharedPreferences.getBoolean("hasLoggedIn",false);
 //
