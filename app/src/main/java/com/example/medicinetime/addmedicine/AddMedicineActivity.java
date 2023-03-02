@@ -30,7 +30,7 @@ public class AddMedicineActivity extends AppCompatActivity {
     private ActionBar mActionBar;
 
     FloatingActionButton Fab1;
-
+//activity from where the medinine details are added
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
